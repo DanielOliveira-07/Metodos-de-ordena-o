@@ -4,10 +4,9 @@
  * Trabalho AV2
  */
 
-Faça uma comparação entre todos os métodos de ordenação estudados em aula com
-relação a estabilidade (preservar ordem lexicográfica), ordem de complexidade levando
-em consideração comparações e movimentações.
-
+Faça uma comparação entre 4 métodos de ordenação estudados em aula com relação a estabilidade (preservar ordem
+lexicográfica), ordem de complexidade levando em consideração comparações e movimentações. Traga exemplos dos
+códigos em C e C++. 
 
 
 == Bubble Sort ==
