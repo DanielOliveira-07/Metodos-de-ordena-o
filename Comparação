@@ -1,0 +1,59 @@
+/* 
+ * Estrutura de Dados em C - 2022/2
+ * Aluno: Daniel Oliveira da Silva
+ * Trabalho AV2
+ */
+
+Faça uma comparação entre todos os métodos de ordenação estudados em aula com
+relação a estabilidade (preservar ordem lexicográfica), ordem de complexidade levando
+em consideração comparações e movimentações.
+
+
+
+== Bubble Sort ==
+O Bubble Sort é considerado o mais simples dos algoritimos de ordenação.
+O que esse algoritimo faz é percorrer o vetor diversas vezes, a cada passagem
+percorrida ele transporta ao final do vetor o maior elemento. Sua comparação
+ocorre sempre com aposição atual do laço com a proxima posição e fazendo a
+troca quando necessario.
+
+== Selection Sort ==
+O Selection Sort por sua vez é um algoritimo de ordenação baseado em mover sempre
+o menor valor do vetor para a primeira posiçãom Depois o de segundo menor valor
+para a segunda posição, e assim por diante até o ultimo elemento do vetor.
+
+== Insertion Sort ==
+O Insertion Sort ou ordenação por inserção é um algoritimo de ordenação que altera
+o vetor um elemento de cada vez, assim movendo movendo o elemento menor diretamente
+para a posição desejada.
+
+== Quick sort ==
+O algoritmo Quicksort resolve o problema de ordenar um sequência respeitando uma 
+ordem definida. Utilizando a abordagem Dividir para conquistar ele implementa 
+uma solução, no caso médio, em O (n log n).
+
+
+
+== Complexidade entre eles ==
+
+A complexidade entre eles se da no fato de como o computador resolve o problema
+e não na escrita do algoritimo. isso vai variar do tamanho do vetor e do tamanho
+dos item nas posição do vetor.
+
+O pior caso é o Bubble Sort, que por sua vez faz a comparação e a troca de todos
+os elementos levendo assim uma complexidade maior no processamento de dados
+
+o Selection Sort já tem uma complexidade menor devido apenas fazer as comparações
+mas deixando para fazer a troca apenas quando necessario.
+
+O Quicksort é o algoritmo mais eficiente na ordenação por comparação. 
+Nele se escolhe um elemento chamado de pivô, a partir disto é organizada a lista 
+para que todos os números anteriores a ele sejam menores que ele, e todos os números 
+posteriores a ele sejam maiores que ele. Ao final desse processo o número pivô já está
+em sua posição final.
+
+O Insertion Sort tem menos comparações que os dois citados anteriormente, mas por outro
+lado tem uma maior complexidade nas trocas de posição.
+
+Então podemos considerar que a complexidade vai depender se o vetor analizado
+tem muitas posições ou se os elementos tem numeros muitos elevados.
